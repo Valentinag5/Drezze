@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f570a3b73d7418e0dd88149de9052c5a8976c0ca7daffdc083dfa12e06007ec4.html">Inicio De Sesion</a></span>
+                > <span class="truncate-60"><a
+                    href="f6ddacb239406f5df78b768629ed2ec06f7ff536443f0e991ccec19421d0a487.html">Inicio Sesion </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2020 21:09</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Inicio De Sesion </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                El analista debe iniciar sesion con uno de los usuarios de prueba creados
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8454153fac08723bb316f4cd08ef6678a9bd888b92f150b5941dfc0826f6bcb1.html">Iniciosesion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Inicio Sesion
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1c78835cacb013efbebbf01595757333543640736bda88ccdc6b280b89153b12.png" title="Given Valen abre la pagina" width="1920"/>
+                <img src="87f632bb2cd7196786d1a73399cf30f71a62066d57c9ad8870ab3b7485ad35d2.png" title="When Ingresa los campos para iniciar sesion
+| correo | clave |
+| valentina@gmail.com | 43753400 |" width="1920"/>
+                <img src="face14095cf964718f817f086b1cd66b3649914fa2fc8e640f355b187b8e4fad.png" title="When Ingresa los campos para iniciar sesion
+| correo | clave |
+| valentina@gmail.com | 43753400 |" width="1920"/>
+                <img src="fa7d15438c7289e025928fab5e9c3665b039cf49d988212b5f8e677c01230576.png" title="Valen clicks on inicio de sesion" width="1920"/>
+                <img src="f72881ab818eae8ff114b673766f9d7a2a85f0749c1556678d2c0d9835a2b5a0.png" title="Valen clicks on inicio de sesion" width="1920"/>
+                <img src="f72881ab818eae8ff114b673766f9d7a2a85f0749c1556678d2c0d9835a2b5a0.png" title="Valen enters 'valentina@gmail.com' into correo" width="1920"/>
+                <img src="9000d2bcdf1fb0ace1e0f03e14acae85824490accb99d1a33561ffde249ddd93.png" title="Valen enters 'valentina@gmail.com' into correo" width="1920"/>
+                <img src="570400e97f3a7e2807c0753b4e57e74bf54ea14b0e1e8797d462023c9d5ddd7a.png" title="Valen enters '43753400' into clave" width="1920"/>
+                <img src="31a905e1eb7fae24405ada2e1f12af07b42f8cb207fc6cb4a3f33727366aade1.png" title="Valen enters '43753400' into clave" width="1920"/>
+                <img src="53c93748399763dbacc6a07e63bceac3041df5162e6e2a86acd2d64f42624727.png" title="Valen clicks on boton de logueo" width="1920"/>
+                <img src="face14095cf964718f817f086b1cd66b3649914fa2fc8e640f355b187b8e4fad.png" title="Valen clicks on boton de logueo" width="1920"/>
+                <img src="0f2c535403afbf42f0d1ae9f798c25f7929c9b0c07cc97f912122c7e88ac7078.png" title="Then Visualiza el nombre del usuario" width="1920"/>
+                <img src="e8c75ea4b85fcbe07350eac94de1dab92239dc7c18921f1752b142116465ad7e.png" title="Then Visualiza el nombre del usuario" width="1920"/>
+                <img src="e6de77b6c57b7052b9b36940baae77ada1312e9e2653ca82f095295cb0411074.png" title="Then visualizacion usuario logueado should be an element that is visible" width="1920"/>
+                <img src="ed2c40d61f3440dccb9c20b10801019e3aa72ce52a3e313948c654ecfe2dae7d.png" title="Then visualizacion usuario logueado should be an element that is visible: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
